@@ -1,0 +1,117 @@
+.main{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 105px;
+    background-image: url(https://images.unsplash.com/photo-1580137189272-c9379f8864fd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+ 
+    
+    
+
+}
+.inputdiv{
+    max-width: 100%;
+    /* background-color: #ffffff; */
+    background: linear-gradient(0.25turn, #ebf8e15d, #5f7eb962);
+    padding: 50px;
+    /* opacity: .8; */
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+}
+.inputdiv1{
+margin-left: 40%;
+padding-top: 50px;
+}
+.inputdiv1 input{
+  width: 350px;
+  padding: 12px;
+  /* opacity: .7; */
+
+}
+
+.inputdiv1 label{
+  display: block;
+  margin-bottom: 10px;
+  /* opacity: .7; */
+  letter-spacing: 1px;
+  margin-top: 15px;
+  font-family: 'Proza Libre', sans-serif;
+}
+
+
+
+.maininput h2{
+  font-size: 30px;
+  font-family: 'Tenor Sans', sans-serif ;
+  margin: 0;
+  font-weight: 400;
+}
+.maininput p{
+  font-size: 5px;
+  font-weight: 400;
+}
+.main label{
+    display: block;
+    margin-bottom: 10px;
+    opacity: .7;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    font-family: 'Proza Libre', sans-serif;
+    
+}
+.main h1{
+    margin-bottom: 50px;
+    margin-left: 90px;
+    /* letter-spacing: 1px; */
+    font-weight: 400;
+    font-size: 36px;
+    font-family: 'Tenor Sans', sans-serif;
+}
+.main input{
+    width: 350px;
+    padding: 12px;
+    opacity: .7;
+   border-radius: 5px;
+   border: 1px solid #d7d7d7;
+}
+.main button{
+    margin-top: 20px;
+    width: 350px;
+    padding: 15px;
+    background-color:#111111;
+    color: white;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.main p{
+    margin-left: 140px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+  
+  .invalid {
+    border: 1px solid #e74c3c;
+  }
+  
+  .error {
+    color: #e74c3c;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  @media screen and (max-width: 800px) and (min-width:375px) {
+    .main input {
+    margin-top: 10px;
+    border: 1px solid grey;
+  
+    }
+
+   
+  }
